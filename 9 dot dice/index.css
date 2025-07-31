@@ -1,0 +1,62 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background: #10131c;
+}
+.box{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background:black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transition-delay: 0.8s;
+}
+.box.active{
+width: 200px;
+height: 200px;
+transition-delay: 0s;
+}
+.box span{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(calc(12px * var(--x)),calc(12px * var(--y)));
+    transition: transform 0.5s,width 0.5s,height 0.5s,background 0.5s;
+    transition-delay: calc(0.1s*var(--i))
+}
+.box.active span{
+    width: 45px;
+    height: 45px;
+    background: #333849;
+    transform: translate(calc(60px*var(--x)),calc(60px*var(--y)));
+   
+}
+.box span ion-icon{
+    transition: 0.5s;
+    font-size: 0cm;
+}
+.box.active span ion-icon{
+    font-size: 0.7cm;
+    color: white;
+}
+.box.active span:hover ion-icon{
+    color: aqua;
+    filter: drop-shadow(0 0 2px aqua) drop-shadow(0 0 5px aqua) drop-shadow(0 0 15px aqua);
+}
