@@ -1,0 +1,959 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0%;
+}
+.color:nth-child(even){
+    background-color: black;
+}
+.color:nth-child(odd){
+    background-image: linear-gradient(#8a56f4,#1d0450);
+}
+.main {
+    height: 125vh;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.header {
+    height: 20%;
+    width: 100%;
+}
+
+.headerleft {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.headerright {
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+}
+
+.upper {
+    height: 80%;
+    width: 100%;
+}
+
+.lower {
+    height: 20%;
+    width: 100%;
+}
+
+.upperleft {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.upperright {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.logoimg {
+    height: 50%;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.email {
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    font-size: 17px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.email:hover {
+    color: #8a56f4;
+}
+
+.headerright ul {
+
+    list-style: none;
+}
+
+.headerright li {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 20px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.headerright li:hover {
+    color: #8a56f4;
+}
+
+.headerright button {
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #7645da, #3a1e71);
+    cursor: pointer;
+
+}
+
+.upperleft h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    color: white;
+}
+
+.upperleft h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 60px;
+    color: white;
+    background-image: linear-gradient(to right, #8750f7, white);
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+.upperleft p {
+    font-family: sans-serif;
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.maindivimg {
+    height: 80%;
+    width: 56%;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: beige;
+    border-radius: 40px;
+    border: 2px solid #3a1e71;
+    overflow: hidden;
+    transform: rotate(12deg);
+    transition: 0.5s;
+}
+
+.maindivimg img {
+    border: 0px;
+
+}
+
+.maindivimg:hover {
+    transform: rotate(0deg);
+    border: 3px solid #8a56f4;
+}
+
+.upperleft button {
+    height: 30px;
+    width: 120px;
+    border-radius: 7px;
+    border: 0px;
+    color: white transparent;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+}
+
+.lowerdiv {
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+
+.lowerdiv h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+
+}
+
+.lowerdiv span {
+    font-size: 20px;
+    position: absolute;
+    top: 33px;
+    left: 110px;
+    width: 100px;
+    color: white;
+}
+
+.a {
+    margin-left: 35px;
+}
+
+.b {
+    margin-left: 65px;
+}
+
+.lowerdiv h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+    width: 150px;
+    margin-left: 15px;
+}
+
+/* .lowerdiv span{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 70px;
+    left: 80px;
+    margin-left: 15px;
+} */
+.services {
+    height: 160vh;
+    width: 100%;
+    margin-top: 0px;
+
+    overflow: hidden;
+
+}
+
+.servicesupper {
+    height: 20%;
+    width: 100%;
+}
+
+.servicesupper h1 {
+    margin: 0%;
+    font-size: 50px;
+    background-image: linear-gradient(to right, #3a1e71, white);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.servicesupper p {
+
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 800px;
+    text-align: center;
+    margin-left: 160px;
+    color: white;
+
+}
+
+.servicedivs {
+    height: 80%;
+    width: 80%;
+    margin-left: 120px;
+    overflow: hidden;
+
+}
+
+.servicediv {
+    height: 25%;
+    width: 100%;
+    border-bottom: 3px solid #8a56f4;
+    transition: 0.5s;
+}
+
+.servicediv:hover {
+    background-color: #8a56f4;
+}
+
+.servicedivleft {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.servicedivleft span {
+
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+.servicedivleft h1 {
+    font-size: 40px;
+    margin: 0px;
+    position: relative;
+    left: 70px;
+    top: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.servicedivmiddle {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.servicedivmiddle p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.servicedivright {
+    height: 100%;
+    width: 20%;
+    float: left;
+    transition: 0.5;
+}
+
+.servicedivright img {
+    position: relative;
+    left: 90px;
+    top: 50px;
+    height: 50px;
+    transform: rotate(35deg);
+
+}
+
+.servicediv:hover .servicedivright img {
+    transform: rotate(-35deg);
+}
+
+.recent {
+    width: 100%;
+    height: 200vh;
+    overflow: hidden;
+}
+
+.recentupper {
+    height: 20%;
+    width: 100%;
+}
+
+.recentupper h1 {
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #3a1e71, white);
+    background-clip: text;
+    color: transparent;
+}
+
+.recentupper p {
+    width: 770px;
+    margin-left: 320px;
+    font-size: 25px;
+    color: white;
+}
+
+.recentupperlower {
+    height: 25%;
+    width: 40%;
+    background-color:black;
+    margin-left: 400px;
+    border-radius: 40px;
+    border: 0px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+
+
+.cusbtn {
+    height: 100%;
+    width: 20%;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    /* background-color: green; */
+    float: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 10px;
+    left: 50px; */
+}
+
+.cusbtn:hover{
+    background-color: #8750f7;
+    
+}
+.recentlower {
+    height: 80%;
+    width: 100%;
+}
+
+.recentlowerdiv {
+    height: 45%;
+    width: 40%;
+    background-color: #3a1e71f9;
+    float: left;
+    margin: 30px;
+    margin-top: 19px;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.recentlowerdiv img {
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+    margin-top: 42px;
+    margin-left: 23px;
+
+}
+
+.recentdiv {
+    height: 110px;
+    width: 450px;
+    background-color: #8750f7;
+    position: absolute;
+    top: 700px;
+    left: 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.recentlowerdiv:hover .recentdiv {
+    top: 300px;
+}
+
+.recentdiv h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.recentdiv p {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+
+.recentdiv img {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    transition: 0.5s;
+}
+
+.recentlowerdiv:hover .recentdiv img {
+    transform: rotate(320deg);
+}
+
+.Workingdiv {
+    height: 160vh;
+    width: 100%;
+    background-color: #3a1e71f9;
+    overflow: hidden;
+}
+
+.Workingdivupper {
+    height: 20%;
+    width: 100%;
+
+}
+
+.Workingdivlower {
+    height: 80%;
+    width: 100%;
+}
+
+.Workingdivupperl h1 {
+
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #3a1e71, white);
+    color: transparent;
+    background-clip: text;
+}
+
+.Workingdivupperr h1 {
+    /* margin: 0px; */
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+    background-image: linear-gradient(to right, #3a1e71, white);
+    color: transparent;
+    background-clip: text;
+}
+
+.Wdivlower {
+    height: 20%;
+    width: 40%;
+    background-color: #3a1e71;
+    border-radius: 40px;
+    margin: 20px;
+    float: left;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+.Wdivlower h2 {
+    font-size: 27px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.Wdivlower h3 {
+    font-size: 20px;
+    font-size: 700;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: #8750f7;
+
+}
+
+.Wdivlower h4 {
+    font-size: 15px;
+    font-size: 700;
+    margin: 0px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.Wdivlower:hover {
+    background-color: #8750f7;
+
+}
+
+.Workingdivlower .Wdivlower:hover h3 {
+    color: white;
+}
+
+.skills {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skillsupper {
+    height: 30%;
+    width: 100%;
+}
+
+.skillslower {
+    height: 70%;
+    width: 100%;
+}
+
+.skillsupper h1 {
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #8750f7, white);
+    background-clip: text;
+    color: transparent;
+}
+
+.skillsupper p {
+    width: 820px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.skillslowerimg {
+    height: 40%;
+    width: 15%;
+    background-color: #3a1e71;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 50px;
+    transition: 0.5s;
+    background-color: #8750f7;
+    filter: grayscale(1.2);
+}
+
+.skillslowerimg img {
+    height: 40%;
+    margin-left: 60px;
+    margin-top: 30px;
+
+    transition: 1s;
+
+}
+
+.skillslowerimg:hover {
+    filter: grayscale(0);
+}
+
+.skillslowerimg:hover img {
+    transform: scale(1.2);
+}
+
+.skillslowerimg h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 13px;
+    margin-left: 70px;
+
+}
+
+/* .name{
+    height: 20%;
+    width: 100%;
+    background-color: darkgoldenrod;
+} */
+.Stories {
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.Storiesleft {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.Storiesright {
+    height: 100%;
+    width: 50%;
+    float: left;
+
+}
+
+.Storiesleft h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-image: linear-gradient(to right, #8750f7, white);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.Storiesleft p {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.Storiesrightl {
+    height: 65%;
+    width: 40%;
+    background-color: #3a1e71;
+    float: left;
+    margin: 25px;
+    margin-top: 100px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+.Storiesimgl {
+    height: 10%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+}
+
+.Storiesimgr {
+    height: 20%;
+    width: 35%;
+    /* background-color:darkgoldenrod; */
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+.Storiesimgr img {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px 5px 6px 100px;
+}
+
+.Storiesrightl p {
+    margin-left: 15px;
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+.Storiesrightl h2 {
+    margin-left: 15px;
+    position: absolute;
+    top: 260px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.Storiesrightl span {
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+    left: 13px;
+    color: white;
+
+}
+.Blogs{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.Blogsupper{
+    height: 30%;
+    width: 100%;
+}
+.Blogslower{
+    height: 70%;
+    width: 100%;
+}
+
+.Blogsupper h1 {
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #3a1e71, white);
+    background-clip: text;
+    color: transparent;
+}
+
+.Blogsupper p {
+    width: 770px;
+    margin-left: 320px;
+    font-size: 25px;
+    color: white;
+
+}
+.Blogslower1{
+    height: 70%;
+    width: 30%;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    /* overflow: hidden; */
+}
+.Blogslower1 img{
+    height: 100%;
+    width: 100%;
+
+}
+.aa{
+    position: relative;
+    bottom: 100px;
+}
+/* .div1{
+    height: 20%;
+    width: 30%;
+    background-color: skyblue;
+} */
+.topcorner{
+    height: 50px;
+    width: 100px;
+}
+.lets{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+  
+}
+.letsleft{
+    height: 100%;
+    width: 50%;
+}
+.letsright{
+    height: 100%;
+    width: 50%;
+   
+}
+.box{
+    height: 70%;
+    width: 80%;
+    background-color: #3a1e71;
+    margin-top: 20%;
+    margin-left: 10%;
+    position: relative;
+}
+.box h1{
+    /* margin-top: 10px; */
+    position: relative;
+    top: 15px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+    background-image: linear-gradient(to right,#8750f7,white);
+    color: transparent;
+    background-clip: text;
+    
+}
+.box p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 15px;
+   color: white;
+  
+}
+.box input{
+    height: 40px;
+    font-size: 20px;
+    width: 180px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+.box select{
+    height: 40px;
+    font-size: 20px;
+    width: 390px;
+    /* color: white; */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+.box textarea{
+    height: 130px;
+    font-size: 20px;
+    width: 390px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+.box button{
+    height: 50px;
+    font-size: 20px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #8750f7;
+    color: white;
+}
+.phone{
+    height: 19%;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 12%;
+   
+}
+.phone img{
+    height: 25%;
+    margin-top: 10%;
+    background-color: #3a1e71;
+    background-clip: text;
+    color: transparent;
+}
+.phone h1{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 12%;
+    font-size: 40px;
+    margin-top: 10%;
+    
+}
+.letsright .phone{
+    position: relative;
+    top: 15%;
+}
+.Last{
+    height: 30vh;
+    width: 100%;
+}
+.logo{
+   height: 50%;
+   width: 100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo img{
+    height: 50%;   
+}
+.text{
+    height: 50%;
+    width: 100%;
+  display: flex;
+           justify-content: center;
+   
+}
+.text ul{
+    list-style: none;
+    
+}
+.text ul li{
+    float: left;
+    margin-left: 25px;
+    color: white;
+}
