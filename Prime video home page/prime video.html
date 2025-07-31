@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #back{
+            background-image: url(image/bg\ p1.jpg);
+            background-size: cover;
+            height: 750px;
+        }
+        h3{
+            position:absolute;
+            top: 10px;
+            left: 15px;
+            color:whitesmoke;
+            transition: transform 2s;
+            
+        }
+        h3:hover{
+            transform: scale(1.2) ;
+            font-weight: 800;
+         
+        }
+        li{
+            display: inline-block;
+            margin-left: 7px;
+           
+           
+        }
+        li:hover{
+            
+             color:black;
+           font-weight: 800;
+        }
+       
+        #set1{
+            position:absolute;
+            top: 15px;
+            left: 100px;
+            color: gray;
+        }
+        /* #set1:hover{
+            color:blueviolet;
+        } */
+        #set
+        {
+            position: absolute;
+            top: 15px;
+            right: 10px;
+            color:gray;
+        }
+        #image1{
+            height: 200px;
+            width: 87%;
+            position: absolute;
+            top: 60px;
+            left: 90px;
+            transition: transform 10s;
+           
+        }
+        #image1:hover{
+            transform: scale(0.5,1);
+            
+        }
+        #prime{
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        color: whitesmoke;
+        transition: transform 5s;
+        }
+        #prime:hover{
+            transform: translateX(800px);
+        }
+        img{
+            height: 100px;
+            width: 200px;
+            
+        }
+        #box{
+            display: inline-block;
+            transition: transform 3s;
+        }
+        #box:hover{
+            transform: scale(1.1,1.1);
+        }
+        #row{
+            position: absolute;
+            top: 300px;
+            left: 20px;
+
+        }
+        #movies{
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        color: whitesmoke;
+        transition: transform 3s;
+        }
+        #movies:hover{
+            transform: translateX(900px);
+        }
+        #rew{
+           position: absolute;
+           bottom: 30px;
+           left: 20px;
+        }
+        #bad{
+            display: inline-block;
+            transition: transform 3s;
+        }
+        #bad:hover{
+            transform: scale(1.1,1.1);
+        }
+        #bed:hover{
+            transform: scale(1.1,1.1);
+        }
+        #watch{
+            position: absolute;
+            top: 550px;
+            left: 20px;
+            color: whitesmoke;
+            transition: transform 3s;
+        }
+       #watch:hover{
+        transform: translateX(900px);
+        }
+        #raw{
+            position: absolute;
+            top: 610px;
+           left: 20px;
+        }
+        #bed{
+            display: inline-block;
+            transition: transform 3s;
+        }
+        #lis{
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div id="back"></div>
+    <h3>prime Video</h3>
+    <ul id="set1">
+        <li id="list1">Home</li>
+        <li id="lis" ><u>Free to me</u></li>
+        <li id="list1">Store</li>
+        <li id="list1">Channels</li>
+        <li id="list1">Categories<select></select></li>
+        <li id="list1">My Stuff</li>
+        <li id="list1">Kids</li>
+    </ul>
+    <ul id="set">
+        <li id="list">Setting</li>
+        <li id="list">Getting Started</li>
+        <li id="list">Help</li>
+    </ul>
+    <div><img id="image1" src="image/ampic.webp"></div>
+    <h2 id="prime"> <font color ="blue">prime</font>  Amazon Originals and Exclusives</h2>
+    <div id="row" >
+        <div id="box"><img src="image/images(1).jpeg"></div>
+        <div id="box"><img src="image/image(2).jpg"></div>
+        <div id="box"><img src="image/image(3).jpg"></div>
+        <div id="box"><img src="image/image(4).jpg"></div>
+        <div id="box"><img src="image/images(5).jpeg"></div>
+        <div id="box"><img src="image/images(6).jpeg"></div>
+    </div>
+    <h2 id="movies"> <font color ="blue">prime</font>  Recently added movies</h2>
+    <div id="rew" >
+        <div id="bad"><img src="image/image(7).jpg"></div>
+        <div id="bad"><img src="image/image(8).jpg"></div>
+        <div id="bad"><img src="image/image(9).jpg"></div>
+        <div id="bad"><img src="image/images(10).jpeg"></div>
+        <div id="bad"><img src="image/image(11).jpg"></div>
+        <div id="bad"><img src="image/images(12).jpeg"></div>
+    </div>
+    <h2 id="watch">Watch Next</h2>
+    <div id="raw" >
+        <div id="bed"><img src="image/images(6).jpeg"></div>
+        <div id="bed"><img src="image/image(13).jpg"></div>
+        <div id="bed"><img src="image/images(14).jpeg"></div>
+        <div id="bed"><img src="image/images(15).jpeg"></div>
+        <div id="bed"><img src="image/images(16).jpeg"></div>
+        <div id="bed"><img src="image/images(5).jpeg"></div>
+    </div>
+</body>
+</html>
